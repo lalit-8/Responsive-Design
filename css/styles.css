@@ -7,12 +7,10 @@ body {
   height: 100%;
   box-sizing: border-box;
   background-color: #0D38D3;
-
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 1.5em;
   color: white;
-
 }
 
 header {
@@ -24,10 +22,7 @@ header {
 }
 
 main { 
-  padding-top: 25px;      
-  padding-bottom: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 25px 100px 50px 100px;
   margin: 1px;            
   
 }
@@ -79,7 +74,7 @@ a {
 }
 
 /* Unorder list elements */
-ul.nav-bar {
+.nav-bar {
   list-style-type: none;
   overflow: hidden;
   
@@ -92,7 +87,6 @@ ul.nav-bar {
 li.nav-item {
   display: inline;
   float: right;
-  
   padding: 5px;
 }
 
@@ -100,11 +94,7 @@ li.nav-item {
 li.nav-item a {   
   font-size: 15px;
   color: #0D38D3;
-  
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 14px 16px 14px 16px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -156,12 +146,10 @@ img {
   background-color: white;
   color: #0D38D3;
   padding: 50px;
-  
   width: 40%;
   margin-left:auto;
   margin-right:auto;
   margin-top: 25px;
-  
   border-style: solid;
   border-color: #fdd946;
   border-width: 8px;
@@ -179,13 +167,10 @@ li {
   padding: 5px;
 }
 
-img.resize {
+.resize {
   width: 50%;
   display: block;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto;
 }
 
 @media screen only screen and (max-width: 850px) {
@@ -207,7 +192,7 @@ img.resize {
   }
 	
   .flex-container {
-    display: block;
+  display: block;
 	height: 100%;
   }
 
@@ -218,10 +203,7 @@ img.resize {
   li.nav-item a {   
   font-size: 14px;
   color: #0D38D3;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 12px 14px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
